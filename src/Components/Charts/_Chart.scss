@@ -1,0 +1,84 @@
+@import '../../assests/variable/Variable';
+
+.chart {
+    height: 100vh;
+    @media screen and (max-width:768px) {
+      height: 65vh;
+     }
+    h5 {
+     text-align: center;
+     color: $text;
+     font-weight: 400;
+     position: relative;
+    bottom: 58px;
+    }
+
+    .chart-container {
+        padding: 50px 3px;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+
+
+        #chart {
+           
+            background-color: white;
+            box-shadow: 0 0 10px #dad3d3;
+            height: 359px;
+            width: 23%;
+            border-radius: 57px 64px 0px 111px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:768px) {
+           height: 236px;
+          }
+             img {
+              max-width: 275px;
+              border-radius: 52px;
+             }
+          }
+
+          #chart2 {
+           
+            background-color: white;
+            box-shadow: 0 0 10px #dad3d3;
+            height: 359px;
+            width: 23%;
+            border-radius: 57px 64px 0px 111px;
+            position: absolute;
+            bottom: 29%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:768px) {
+              height: 236px;
+             }
+             img {
+              max-width: 240px;
+              border-radius: 52px;
+             }
+          }
+
+          #chart3 {
+           
+            background-color: white;
+            box-shadow: 0 0 10px #dad3d3;
+            height: 359px;
+            width: 23%;
+            border-radius: 57px 64px 0px 111px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @media screen and (max-width:768px) {
+              height: 236px;
+             }
+             img {
+              max-width: 260px;
+              border-radius: 52px;
+             }
+          }
+          
+    }
+}

@@ -1,0 +1,38 @@
+@import '../../assests/variable/Variable';
+
+.navbar {
+       background-color: $white;
+    .nav_container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 35px;
+        margin: 0 auto;
+        max-width: 1440px;
+         
+        .logo {
+
+            img {
+
+            }
+        }
+
+         .dashboard-btn{
+              
+            button {
+                border: none;
+                outline: none;
+                background: $themeClr;
+                color: white;
+                padding: 10px;
+                border-radius: 4px;
+                transition: .4s ease-in;
+                cursor: pointer;
+                &:hover {
+                    background-color: $text;
+                    color: $white;
+                }
+             }
+         }
+    }
+}

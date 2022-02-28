@@ -1,0 +1,100 @@
+@import '../../assests/variable/Variable';
+.videoSection {
+           background-color: $white;
+    .container {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        padding: 20px;
+        .col-1 {
+            line-height: 2px;
+        
+        .progress_div {
+            background: $white;
+            box-shadow: 0 0 10px #d6cbcb;
+            height: 137px;
+           padding:34px 25px;
+           border-radius: 5px;
+            h5 {
+                font-weight: 400;
+                font-size: 20px;
+            }
+
+            .drag {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border-bottom: 1px solid #D6D9DC;
+               
+
+            .progress_Bar {
+                background: #CDD5E1;
+                height: 8px;
+                width: 82%;
+                border-radius: 22px;
+                .progress {
+                    background: #147AD6;
+                    width: 36%;
+                    height: 8px;
+                    border-radius: 22px;
+                }
+            }
+            .percent {
+
+                p  {
+                    
+                }
+            }
+
+            }
+            p {
+                color: $textClr;
+                font-size: 13px;
+                line-height: 47px;
+            }
+        }
+         .about_video {
+            padding-top: 36px;
+            h3 {
+                line-height: 31px;
+                font-size: 27px;
+                font-weight: 400;
+                font-family: $textFont;
+            }
+
+            p {
+                color: $textClr;
+                font-size: 13px;
+                line-height: 17px;
+                padding-top: 13px;
+            }
+         }
+        }
+        .video_section {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .video_cover {
+                
+                img {
+                    width: 100%;
+                }
+            }
+            .play_svg {
+                    position: absolute;
+                    cursor: pointer;
+                    transition: .7s ease-in-out;
+
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                svg {
+                     width: 81%;
+                    
+                     
+                }
+            }
+        }
+    }
+}

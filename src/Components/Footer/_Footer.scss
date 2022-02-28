@@ -1,0 +1,110 @@
+@import '../../assests/variable/Variable';
+
+.footer {
+    background:$linearG;
+    height: 50vh;
+    .footer_container {
+       background: $footerBackgroundClr;
+       display: grid;
+       padding: 30px 49px;
+       grid-template-columns: 50% 50%;
+       transform: translate(10%, 12%);
+       border-radius: 27px;
+       width: 83%;
+       height: 83%;
+       @media screen and (max-width:1024px) {
+           width: 87%;
+        transform: translate(10%, 12%);
+       }
+.footer-content {
+    line-height: 35px;
+    h3 {
+       color: $white;
+       @media screen and (max-width:1024px) {
+        font-size: 23px;
+    }
+    }
+
+    p {
+        color: $white;
+        margin-left: 19px;
+        line-height: 21px;
+        font-family: $textFont;
+        @media screen and (max-width:1024px) {
+            font-size: 12px;
+        }
+    }
+
+}
+  .navs {
+    display: flex;
+    justify-content: space-between;
+    .navs_content {
+               line-height: 35px;
+        h5 {
+            color: $white;
+            @media screen and (max-width:768px) {
+                font-size: 8px !important;
+            }
+            @media screen and (max-width:1024px) {
+                font-size: 12px;
+            }
+            @media screen and (max-width:1172px) {
+                font-size: 14px;
+            }
+        }
+
+        p {
+          color: $navText;
+          cursor: pointer;
+          @media screen and (max-width:768px) {
+            font-size: 7px !important;
+        }
+          @media screen and (max-width:1024px) {
+            font-size: 10px;
+        }
+        @media screen and (max-width:1172px) {
+            font-size: 12px;
+        }
+          &:hover {
+              color: $white;
+          }
+        }
+    }
+  }
+    .listing {
+
+        ul {
+            list-style-type: none;
+            display: flex;
+
+           li {
+             color: $white;
+             margin-left: 25px;
+             cursor: pointer;
+             @media screen and (max-width:1024px) {
+                font-size: 12px;
+            }
+            @media screen and (max-width:768px) {
+                font-size: 9px !important;
+            }
+             &:hover {
+                 color: $navText;
+             }
+           }
+        }
+    }
+    .toTop {
+         display: flex;
+         justify-self: flex-end;
+         margin-right: 22px;
+
+        div{
+            color: $white;
+            margin-right: 38px;
+        }
+    }
+}
+
+    }
+
