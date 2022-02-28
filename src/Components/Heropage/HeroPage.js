@@ -20,6 +20,7 @@ function HeroPage() {
                </div>
 <div>
             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
+            <button>Go To Dashboard</button>
      </div>        
             
 
@@ -29,6 +30,8 @@ function HeroPage() {
              <div className='wealth-manager'>
                  <img src={wealth_M} />
              </div>
+
+            
            </div>
 
 
